@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs/AboutUs";
 import Category from "@/components/Category/Category";
 import Header from "@/components/header/Header";
 import LastProperties from "@/components/LastProperties/LastProperties";
@@ -10,6 +11,7 @@ export default function Home() {
       <Slider />
       <Category />
       <LastProperties />
+      <AboutUs />
       <br />
       <br />
       <br />
