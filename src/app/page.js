@@ -3,6 +3,7 @@ import Category from "@/components/Category/Category";
 import Header from "@/components/header/Header";
 import LastProperties from "@/components/LastProperties/LastProperties";
 import Slider from "@/components/Slider/Slider";
+import SuggestProperties from "@/components/SuggestProperties/SuggestProperties";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Category />
       <LastProperties />
       <AboutUs />
+      <SuggestProperties />
       <br />
       <br />
       <br />

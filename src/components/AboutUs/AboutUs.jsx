@@ -10,16 +10,18 @@ const AboutUs = () => {
             <Grid2 container sx={{ mt: 10 }}>
                 <Grid2
                     size={{
-                        lg: 6
+                        lg: 6,
+                        sm: 12
                     }}
                 >
                     <Image src={Sell} style={{ width: '100%', height: '100%' }} />
                 </Grid2>
                 <Grid2
                     size={{
-                        lg: 6
+                        lg: 6,
+                        sm: 12
                     }}
-                    sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', p: 10 }}
+                    sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', p: {lg: 10, xs: 2} }}
                 >
                     <span className='slider-badge'>بازکردن قفل رویاها، بازکردن درها</span>
                     <Typography fontWeight='bold' variant='h3' sx={{ paddingRight: {lg: '6rem', xs: 1}, my: 2 }}>
@@ -44,7 +46,7 @@ const AboutUs = () => {
                     size={{
                         lg: 6
                     }}
-                    sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', p: 10 }}
+                    sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', p: {lg: 10, xs: 2} }}
                 >
                     <span className='slider-badge'>بازکردن قفل رویاها، بازکردن درها</span>
                     <Typography fontWeight='bold' variant='h3' sx={{ paddingRight: {lg: '6rem', xs: 1}, my: 2 }}>
