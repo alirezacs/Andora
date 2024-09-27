@@ -20,7 +20,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const myFont = localFont({src: './fonts/vazirmatn/Vazirmatn-Black.ttf'});
+const myFont = localFont({src: './fonts/vazirmatn/Vazirmatn-Light.ttf', variable: '--font-vazirmatn'});
 
 export default function RootLayout({ children }) {
   const cachRtl = createCache({
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased ${myFont.className}`}
+        className={`antialiased ${myFont.className}`}
       >
         <AppRouterCacheProvider>
           <CacheProvider value={cachRtl}>
