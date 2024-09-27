@@ -1,0 +1,160 @@
+.propery-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F0EB;
+    overflow: hidden;
+    border-radius: 8px;
+
+    .property-image{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+
+        .property-category{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 1rem;
+    
+            button{
+                background: #000;
+                color: #fff;
+                margin-right: 0.5rem;
+                padding: 3px 1rem;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                font-family: var(--font-vazirmatn);
+                transition: 0.3s;
+    
+                &:hover{
+                    background-color: #1B6F58;
+                }
+            }
+        }
+        .property-attributes{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 1rem;
+            display: flex;
+    
+            .attribute-item{
+                display: flex;
+                align-items: center;
+                margin-left: 2rem;
+    
+                .attribute-icon{
+                    width: 40px;
+                    height: 40px;
+                    background-color: #A68E74;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 10px;
+                    transition: 0.3s;
+                }
+                span{
+                    color: #fff;
+                    font-weight: bold;
+                }
+                &:hover .attribute-icon{
+                    background-color: #1B6F58;
+                }
+            }
+        }
+    }
+    .property-body{
+        padding: 2rem;
+
+        .property-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .property-title{
+                display: flex;
+                flex-direction: column;
+                color: #000;
+                font-weight: bold;
+                font-size: 1.2rem;
+
+                .property-address{
+                    color: #687693;
+                    font-size: 14px;
+                }
+            }
+            .property-price{
+                font-weight: bold;
+                color: #000;
+                font-size: 1.4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .property-price-scale{
+                    color: #1B6F58;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .property-footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #fff;
+            padding-top: 1rem;
+            margin-top: 1rem;
+
+            .property-admin{
+                display: flex;
+                align-items: center;
+
+                .property-admin-avatar{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    transition: 0.3s;
+                    border: 3px solid #fff;
+                    margin-left: 6px;
+
+                    &:hover{
+                        border-color: #1B6F58;
+                    }
+                }
+                span{
+                    font-weight: bold;
+                    color: #687693;
+                    font-size: 13px;
+                }
+            }
+            .property-actions{
+                display: flex;
+                align-items: center;
+
+                button{
+                    border: 1px solid #B4B7C9;
+                    border-radius: 3px;
+                    background: none;
+                    margin-left: 5px;
+                    padding: 8px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.3s;
+
+                    &:hover{
+                        background-color: #1B6F58;
+                    }
+                }
+            }
+        }
+    }
+}

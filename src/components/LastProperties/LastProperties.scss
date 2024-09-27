@@ -1,0 +1,21 @@
+.last-properties{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+
+    .last-properties-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        span{
+            font-size: 14px;
+            color: #687693;
+            max-width: 625px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}
