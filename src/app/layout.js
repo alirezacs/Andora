@@ -8,6 +8,7 @@ import createCache from "@emotion/cache";
 import { prefixer } from 'stylis';
 import stylisRTLPlugin from "stylis-plugin-rtl";
 import { createTheme } from "@mui/material";
+import 'swiper/css';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
       >
         <AppRouterCacheProvider>
           <CacheProvider value={cachRtl}>
+            <ThemeProvider theme={theme}>
             {children}
+            </ThemeProvider>
           </CacheProvider>
         </AppRouterCacheProvider>
       </body>
