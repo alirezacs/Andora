@@ -1,0 +1,30 @@
+.category-item{
+    background-color: #F8F8F8;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    .category-image{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+    .category-info{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+
+        .category-name{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .category-count{
+            font-size: 14px;
+            color: #626262;
+        }
+    }
+}
