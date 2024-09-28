@@ -3,6 +3,7 @@ import Blogs from "@/components/Blogs/Blogs";
 import Category from "@/components/Category/Category";
 import Consultants from "@/components/Consultants/Consultants";
 import ContactUs from "@/components/ContactUs/ContactUs";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/header/Header";
 import LastProperties from "@/components/LastProperties/LastProperties";
 import Slider from "@/components/Slider/Slider";
@@ -20,6 +21,7 @@ export default function Home() {
       <ContactUs />
       <Consultants />
       <Blogs />
+      <Footer />
       <br />
       <br />
       <br />
