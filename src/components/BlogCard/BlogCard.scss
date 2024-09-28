@@ -1,0 +1,49 @@
+.blog-card{
+    display: flex;
+    flex-direction: column;
+
+    .blog-image{
+        height: 280px;
+        position: relative;
+
+        .blog-category{
+            padding: 2px 10px;
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            font-size: 13px;
+            border-radius: 5px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .blog-admin-avatar{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            position: absolute;
+            left: 20px;
+            bottom: -15px;
+        }
+    }
+    .blog-content{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F8F9;
+        border-radius: 0 0 5px 5px;
+
+        .blog-info{
+            display: flex;
+            
+            span{
+                margin-left: 20px;
+                font-size: 15px;
+                color: #B4B7C9;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

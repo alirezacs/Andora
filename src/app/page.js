@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs/AboutUs";
+import Blogs from "@/components/Blogs/Blogs";
 import Category from "@/components/Category/Category";
 import Consultants from "@/components/Consultants/Consultants";
 import ContactUs from "@/components/ContactUs/ContactUs";
@@ -18,6 +19,7 @@ export default function Home() {
       <SuggestProperties />
       <ContactUs />
       <Consultants />
+      <Blogs />
       <br />
       <br />
       <br />
