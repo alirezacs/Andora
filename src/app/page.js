@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Category from "@/components/Category/Category";
+import Consultants from "@/components/Consultants/Consultants";
 import ContactUs from "@/components/ContactUs/ContactUs";
 import Header from "@/components/header/Header";
 import LastProperties from "@/components/LastProperties/LastProperties";
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutUs />
       <SuggestProperties />
       <ContactUs />
+      <Consultants />
       <br />
       <br />
       <br />
