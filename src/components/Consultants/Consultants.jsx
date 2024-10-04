@@ -11,7 +11,7 @@ const Consultants = () => {
                 </Typography>
                 <span>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم متن را در بر می گیرد.</span>
             </div>
-            <Container sx={{ mt: 5 }}>
+            <Container sx={{ my: 5 }}>
                 <Grid2 container columnSpacing={3} rowSpacing={6}>
                     <Grid2
                         size={{
