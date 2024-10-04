@@ -38,7 +38,7 @@ const Page = () => {
     return (
         <div className="main">
             <Header />
-            <Banner />
+            <Banner title='لیست املاک نجاری' />
             <Container sx={{ my: 10 }} maxWidth='xl'>
                 <Box sx={{ borderBottom: 1, borderColor: 'divider', width: '100%' }}>
                     <Tabs value={value} onChange={(e, val) => setValue(val)}>
