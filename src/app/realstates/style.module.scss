@@ -1,0 +1,134 @@
+.slider-search-input{
+    width: 100%;
+    background-color: #F7F8F9;
+    padding: 1rem;
+    border-radius: 50px;
+
+    input,select{
+        width: 100%;
+        border: none;
+        background: none;
+        font-family: var(--font-vazirmatn);
+    }
+}
+.slider-search-submit{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #1B6F58;
+    color: #fff;
+    font-weight: bold;
+    font-family: var(--font-vazirmatn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+    &:hover{
+        background-color: #A68E74;
+    }
+}
+.realstates{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .realstates-filter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .realstates-filter-input{
+            width: 250px;
+            background-color: #F7F8F9;
+            padding: 1rem;
+            border-radius: 50px;
+
+            input,select{
+                width: 100%;
+                border: none;
+                background: none;
+                font-family: var(--font-vazirmatn);
+            }
+        }
+    }
+    .realstate-item{
+        display: flex;
+        background-color: #F9F7F4;
+        border-radius: 8px;
+        border: 1px solid #DAE8F0;
+
+        .realstate-image{
+            width: 300px;
+            height: 350px;
+        }
+        .realstate-content{
+            padding: 2.5rem;
+            flex: 1;
+
+            .realstate-comment{
+                display: flex;
+                justify-content: space-between;
+
+                .realstate-category{
+                    display: flex;
+                    
+                    button{
+                        padding: 3px 10px;
+                        background-color: #000;
+                        color: #fff;
+                        border-radius: 5px;
+                        border: none;
+                        font-family: var(--font-vazirmatn);
+                        margin-left: 10px;
+                    }
+                }
+                .realstate-actions{
+                    display: flex;
+
+                    button{
+                        border: 1px solid #B4B7C9;
+                        background: none;
+                        padding: 5px;
+                        margin-right: 10px;
+                        border-radius: 5px;
+                        transition: 0.3s;
+                        color: #B4B7C9;
+
+                        &:hover{
+                            color: #fff;
+                            background-color: #1B6F58;
+                        }
+                    }
+                }
+            }
+            .realstate-attributes{
+                display: flex;
+                margin-top: 2rem;
+
+                .realstate-attribute{
+                    margin-left: 1.5rem;
+                    display: flex;
+                }
+            }
+            .realstate-footer{
+                display: flex;
+                align-items: center;
+                margin-top: 1.5rem;
+
+                .realstate-avatar{
+                    width: 40px;
+                    height: 40px;
+                    border: 3px solid #A68E74;
+                    border-radius: 50%;
+                    transition: 0.3s;
+
+                    &:hover{
+                        border-color: #1B6F58;
+                    }
+                }
+            }
+        }
+    }
+}

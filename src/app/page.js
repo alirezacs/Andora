@@ -22,20 +22,6 @@ export default function Home() {
       <Consultants />
       <Blogs />
       <Footer />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
