@@ -25,6 +25,7 @@ npm run dev
 ```
 
 ## Screenshots
-![Home](./screenshots/home.png)
-![Listing](./screenshots/listing.png)
-![Details](./screenshots/details.png)
+![Home](./screenshots/index.png)
+![Listing](./screenshots/login-register.png)
+![Details](./screenshots/properties.png)
+![Details](./screenshots/property-detail.png)
